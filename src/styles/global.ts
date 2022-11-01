@@ -8,11 +8,20 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  #__next {
+    min-height: 100vh;
+  }
+
   body {
     background: ${theme.colors.black};
     font-family: ${theme.font.family};
     overflow-x: hidden;
     color: ${theme.colors.white};
+  }
+
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
   }
 
   button {
