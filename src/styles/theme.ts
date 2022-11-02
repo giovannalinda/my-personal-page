@@ -1,6 +1,6 @@
 export const theme = {
   grid: {
-    lg: '132rem',
+    lg: '124rem',
   },
   font: {
     family: 'Dm Sans',
@@ -10,11 +10,13 @@ export const theme = {
       bold: 700,
     },
     sizes: {
-      small: '1.4rem',
-      paragraph: '1.6rem',
-      large: '1.8rem',
-      subtitle: '3.2rem',
-      title: '4rem',
+      verySmall: '1.4rem',
+      small: '1.6rem',
+      paragraph: '1.8rem',
+      subtitle: '2.4rem',
+      large: '4.4rem',
+      title: '6.4rem',
+      big: '9.6rem',
     },
     lineHeights: {
       small: '4rem',
@@ -61,4 +63,4 @@ export const theme = {
     desktop: '1440px',
     largeDesktop: '1920px',
   },
-}
+} as const
