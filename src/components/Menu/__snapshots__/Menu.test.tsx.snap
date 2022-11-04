@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu matches snapshot 1`] = `
+<nav
+  class="sc-bczRLJ"
+>
+  <ul
+    class="sc-gsnTZi gGxZCf"
+  >
+    <li
+      class="sc-dkzDqf cNCoYv"
+    >
+      <a
+        href="/"
+      >
+        INÍCIO
+      </a>
+    </li>
+    <li
+      class="sc-dkzDqf cNCoYv"
+    >
+      <a
+        href="/about-me"
+      >
+        QUEM SOU
+      </a>
+    </li>
+    <li
+      class="sc-dkzDqf cNCoYv"
+    >
+      <a
+        href="/contact"
+      >
+        CONTATO
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
