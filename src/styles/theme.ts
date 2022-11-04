@@ -31,7 +31,8 @@ export const theme = {
 
     purple: '#6D38FC',
 
-    gray900: '#202020',
+    gray900: '#171717',
+    gray800: '#202020',
     gray400: '#AEAEAE',
     gray300: '#CECECE',
     gray100: '#EFEFEF',
@@ -57,8 +58,8 @@ export const theme = {
     fast: '0.2s',
   },
   breakpoints: {
-    smallMobile: '320px',
-    mobile: '425px',
+    smallMobile: '425px',
+    mobile: '768px',
     smallDesktop: '1024px',
     desktop: '1440px',
     largeDesktop: '1920px',
