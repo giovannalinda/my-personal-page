@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Statistics matches snapshot 1`] = `
+<ul
+  class="sc-bczRLJ bmVjRR"
+>
+  <li
+    class="sc-gsnTZi dGSFdO"
+  >
+    <h1
+      class="sc-dkzDqf hKJCPV"
+    >
+      2+
+    </h1>
+    <p
+      class="sc-hKMtZM SUDTQ"
+    >
+      Anos de Experiências
+    </p>
+  </li>
+  <li
+    class="sc-gsnTZi dGSFdO"
+  >
+    <h1
+      class="sc-dkzDqf hKJCPV"
+    >
+      600+
+    </h1>
+    <p
+      class="sc-hKMtZM SUDTQ"
+    >
+      Contribuições Esse Ano
+    </p>
+  </li>
+  <li
+    class="sc-gsnTZi dGSFdO"
+  >
+    <h1
+      class="sc-dkzDqf hKJCPV"
+    >
+      100%
+    </h1>
+    <p
+      class="sc-hKMtZM SUDTQ"
+    >
+      De Satisfação
+    </p>
+  </li>
+</ul>
+`;
