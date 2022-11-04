@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About matches snapshot 1`] = `
+<section
+  class="sc-bczRLJ gdEYFF"
+>
+  <h1
+    class="sc-gsnTZi kBOgis"
+  >
+    Dedicada a encontrar as melhores soluções criativas para suas marcas
+  </h1>
+  <p
+    class="sc-dkzDqf clYJGD"
+  >
+    Me preocupo com cada detalhe na hora de construir interfaces valorizando a experiência para que ela impacte positivamente a vida dos usuários.
+  </p>
+</section>
+`;
