@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Companies matches snapshot 1`] = `
+<section
+  class="sc-bczRLJ jhDWfm"
+>
+  <h1
+    class="sc-gsnTZi dSgLBd"
+  >
+    Carreira
+  </h1>
+  <ul
+    class="sc-dkzDqf jStVNb"
+  >
+    <li
+      class="sc-hKMtZM jkumoH"
+    >
+      <h2>
+        Front-end Developer
+      </h2>
+      <span>
+        Hypesoft • 6 meses
+      </span>
+    </li>
+    <li
+      class="sc-hKMtZM jkumoH"
+    >
+      <h2>
+        Front-end Developer
+      </h2>
+      <span>
+        42 Dias Tecnologia • 5 meses
+      </span>
+    </li>
+  </ul>
+</section>
+`;
