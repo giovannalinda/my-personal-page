@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutMe matches snapshot 1`] = `
+<section
+  class="sc-bczRLJ ffPncI"
+>
+  <h1
+    class="sc-gsnTZi bRGGsb"
+  >
+    Giovanna Souza
+    <span>
+      .
+    </span>
+  </h1>
+  <small
+    class="sc-dkzDqf eZUUTv"
+  >
+    Front-end Developer na 
+    <a
+      class="sc-eCYdqJ cpJoyG"
+      href="https://www.instagram.com/hypesoftbrasil/"
+    >
+      Hypesoft
+    </a>
+  </small>
+  <p
+    class="sc-hKMtZM bkfbAB"
+  >
+    Olá! Prazer 💜 
+    <br />
+    <br />
+    Sou uma desenvolvedora com brilho no olho, que está sempre em busca do próximo nível e que se empenha em trazer assuntos relevantes pra comunidade.
+    <br />
+    <br />
+    Sou apaixonada por criar produtos úteis e de boa qualidade para os usuários, atualmente possuo 2 anos na área de desenvolvimento e ando me aperfeiçoando tanto na parte técnica quanto na parte de liderança de um time.
+    <br />
+    <br />
+    Alguns dos meus objetivos são ter um crescimento continuo, impactar a vida das pessoas e construir interfaces de boa qualidade.
+  </p>
+</section>
+`;

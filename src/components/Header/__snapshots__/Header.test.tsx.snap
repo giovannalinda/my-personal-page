@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches snapshot 1`] = `
+<header
+  class="sc-papXJ ObRRU"
+>
+  <ul
+    class="sc-jqUVSM eEavEy"
+  >
+    <li
+      class="sc-kDDrLX irZuR"
+    >
+      <h1>
+        Giovanna
+      </h1>
+      <p>
+        Souza
+      </p>
+    </li>
+    <li
+      class="sc-kDDrLX irZuR"
+    >
+      <small>
+        PT EN
+      </small>
+    </li>
+    <li
+      class="sc-kDDrLX irZuR"
+    >
+      <button
+        class="sc-iqcoie haNNNk"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 1024 1024"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M904 158H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h496c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 424H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h496c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 212H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0-424H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8z"
+          />
+        </svg>
+      </button>
+    </li>
+  </ul>
+</header>
+`;

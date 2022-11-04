@@ -4,6 +4,10 @@ import { ThemeProvider } from 'styled-components'
 
 import { GlobalStyles, theme } from '~/styles'
 
+import 'swiper/css'
+import 'swiper/css/pagination'
+import 'swiper/css/navigation'
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>

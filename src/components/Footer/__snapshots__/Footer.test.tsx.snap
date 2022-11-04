@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer matches snapshot 1`] = `
+<footer
+  class="sc-bczRLJ hWHKJc"
+>
+  <p
+    class="sc-gsnTZi bNwlIG"
+  >
+    Giovanna Souza © Todos os direitos reservados
+  </p>
+</footer>
+`;

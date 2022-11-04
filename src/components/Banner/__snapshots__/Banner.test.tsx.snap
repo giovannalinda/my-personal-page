@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner matches snapshot 1`] = `
+<section
+  class="sc-bczRLJ jFKiRm"
+>
+  <h1
+    class="sc-gsnTZi dWprHZ"
+  >
+    Vamos fazer algo incrível juntos.
+  </h1>
+</section>
+`;
