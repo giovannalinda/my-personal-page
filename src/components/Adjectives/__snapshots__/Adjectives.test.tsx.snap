@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Adjectives matches snapshot 1`] = `
+<ul
+  class="sc-bczRLJ jksxgQ"
+>
+  <li
+    class="sc-gsnTZi kOgEjT"
+  >
+    <h1
+      class="sc-dkzDqf gxIqnY"
+    >
+      Criatividade
+    </h1>
+  </li>
+  <li
+    class="sc-gsnTZi kOgEjT"
+  >
+    <h1
+      class="sc-dkzDqf gxIqnY"
+    >
+      Singularidade
+    </h1>
+  </li>
+  <li
+    class="sc-gsnTZi kOgEjT"
+  >
+    <h1
+      class="sc-dkzDqf gxIqnY"
+    >
+      Curiosidade
+    </h1>
+  </li>
+</ul>
+`;
