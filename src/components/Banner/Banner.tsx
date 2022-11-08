@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion'
 import { InView } from 'react-intersection-observer'
 
-import * as S from './Banner.styled'
+import { useTranslation } from '~/lib'
 
-const TITLE = 'Vamos fazer algo incrível juntos.'
+import * as S from './Banner.styled'
 
 const letterVariant = {
   hidden: { opacity: 0 },
@@ -11,6 +11,9 @@ const letterVariant = {
 }
 
 export function Banner() {
+  const { t } = useTranslation()
+
+  const TITLE = `${t(`Let's do something amazing together.`)}`
   return (
     <InView triggerOnce>
       {({ inView, ref }) => (
