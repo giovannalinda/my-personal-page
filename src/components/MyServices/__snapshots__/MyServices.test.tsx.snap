@@ -11,7 +11,8 @@ exports[`MyServices matches snapshot 1`] = `
     <span>
       &
     </span>
-     Desenvolvimento
+     
+    Development.
   </h1>
 </section>
 `;
