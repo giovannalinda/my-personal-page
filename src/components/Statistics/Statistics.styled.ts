@@ -6,6 +6,11 @@ export const List = styled.ul`
   align-items: center;
   justify-content: center;
   background: ${theme.colors.gray900};
+  margin-top: 12rem;
+
+  @media screen and (max-width: ${theme.breakpoints.smallMobile}) {
+    flex-direction: column;
+  }
 `
 
 export const ListItem = styled.li`
@@ -14,6 +19,17 @@ export const ListItem = styled.li`
 
   & + li {
     padding-left: 8rem;
+  }
+
+  @media screen and (max-width: ${theme.breakpoints.smallMobile}) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    & + li {
+      padding-left: 0;
+    }
   }
 `
 
