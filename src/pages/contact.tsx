@@ -8,7 +8,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Giovanna Souza | Contato</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/favicon.svg' />
       </Head>
 
       <Header />

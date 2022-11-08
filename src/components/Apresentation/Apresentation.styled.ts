@@ -7,8 +7,8 @@ export const Container = styled.section`
   align-items: center;
   margin-top: 26rem;
 
-  @media screen and (max-width: ${theme.breakpoints.smallDesktop}) {
-    margin-top: 34rem;
+  @media screen and (max-width: ${theme.breakpoints.smallMobile}) {
+    margin-top: 18rem;
   }
 `
 
@@ -16,6 +16,10 @@ export const Content = styled.div`
   display: flex;
   text-align: left;
   flex-direction: column;
+
+  @media screen and (max-width: ${theme.breakpoints.smallMobile}) {
+    text-align: center;
+  }
 `
 
 export const Title = styled.h1`
@@ -32,12 +36,12 @@ export const Title = styled.h1`
   @media screen and (max-width: ${theme.breakpoints.mobile}) {
     font-size: ${theme.font.sizes.title};
     margin-top: 18rem;
+    text-align: center;
   }
 
   @media screen and (max-width: ${theme.breakpoints.smallMobile}) {
-    text-align: left;
     padding-left: ${theme.space[7]};
-    font-size: ${theme.font.sizes.large};
+    font-size: ${theme.font.sizes.subtitle};
   }
 `
 
