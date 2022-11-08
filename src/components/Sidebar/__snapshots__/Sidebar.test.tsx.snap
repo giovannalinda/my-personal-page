@@ -9,7 +9,7 @@ exports[`Sidebar matches snapshot 1`] = `
     style="opacity: 0;"
   >
     <button
-      class="sc-iBkjds eFxeEh"
+      class="sc-iBkjds iPHuLK"
     >
       Fechar
     </button>
@@ -20,7 +20,7 @@ exports[`Sidebar matches snapshot 1`] = `
         class="sc-bczRLJ"
       >
         <ul
-          class="sc-gsnTZi gGxZCf"
+          class="sc-gsnTZi kQZpry"
         >
           <li
             class="sc-dkzDqf cNCoYv"
@@ -52,7 +52,7 @@ exports[`Sidebar matches snapshot 1`] = `
         </ul>
       </nav>
       <ul
-        class="sc-hKMtZM eFmSVO"
+        class="sc-hKMtZM krPDMt"
       >
         <li
           class="sc-eCYdqJ fsnwTU"

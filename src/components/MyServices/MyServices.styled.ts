@@ -17,6 +17,10 @@ export const Title = styled.h1`
     font-size: ${theme.font.sizes.title};
   }
 
+  @media screen and (max-width: ${theme.breakpoints.smallDesktop}) {
+    font-size: ${theme.font.sizes.large};
+  }
+
   span {
     color: ${theme.colors.white};
     -webkit-text-fill-color: ${theme.colors.black};

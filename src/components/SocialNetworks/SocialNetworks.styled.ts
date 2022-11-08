@@ -3,7 +3,7 @@ import { theme } from '~/styles'
 
 export const List = styled.ul`
   display: flex;
-  margin: 12rem 0 0 ${theme.space[7]};
+  margin-top: 12rem;
   padding: ${theme.space[5]};
 `
 

@@ -5,14 +5,6 @@ export const Container = styled.section`
   margin-top: 28rem;
   text-align: left;
 
-  @media screen and (max-width: ${theme.breakpoints.smallDesktop}) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-  }
-
   ul {
     margin: 5rem -2rem;
   }

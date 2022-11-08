@@ -33,7 +33,7 @@ export const CloseButton = styled.button`
   color: ${theme.colors.white};
   top: 4.4rem;
   align-items: center;
-  left: 10rem;
+  left: 6rem;
   z-index: 3;
 `
 

@@ -2,7 +2,7 @@
 
 exports[`Contact matches snapshot 1`] = `
 <section
-  class="sc-dkzDqf kFrxPD"
+  class="sc-dkzDqf fMqRZh"
 >
   <h1
     class="sc-hKMtZM SToKj"
@@ -12,10 +12,10 @@ exports[`Contact matches snapshot 1`] = `
   <p
     class="sc-eCYdqJ iuwBw"
   >
-    Fique a vontade para entrar em contato comigo por alguma de minhas redes.
+    Fique a vontade para me mandar uma mensagem e entrar em contato comigo por alguma de minhas redes.
   </p>
   <ul
-    class="sc-bczRLJ djzJWg"
+    class="sc-bczRLJ bWFoxn"
   >
     <li
       class="sc-gsnTZi diQiBZ"

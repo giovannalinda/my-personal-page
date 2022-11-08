@@ -7,8 +7,8 @@ export function Contact() {
     <S.Container>
       <S.Title>Olá! Tudo bem?</S.Title>
       <S.Paragraph>
-        Fique a vontade para entrar em contato comigo por alguma de minhas
-        redes.
+        Fique a vontade para me mandar uma mensagem e entrar em contato comigo
+        por alguma de minhas redes.
       </S.Paragraph>
       <SocialNetworks />
     </S.Container>

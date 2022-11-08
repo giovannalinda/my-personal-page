@@ -20,21 +20,23 @@ export const List = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 `
 
 export const ListItem = styled(motion.li)`
-  background: ${theme.colors.gray900};
-  padding: 8rem ${theme.space[7]};
+  padding: ${theme.space[7]} ${theme.space[0]};
   width: 100%;
   transition: ${theme.transitions.slow};
-  border: 1px solid ${theme.colors.gray900};
+  display: flex;
+  margin-bottom: ${theme.space[4]};
 
-  &:hover {
-    border-color: ${theme.colors.white};
+  @media screen and (max-width: ${theme.breakpoints.smallDesktop}) {
+    flex-direction: column;
+    padding: 0 ${theme.space[7]} ${theme.space[7]} ${theme.space[7]};
   }
 
-  & + & {
-    margin-left: ${theme.space[4]};
+  @media screen and (max-width: ${theme.breakpoints.smallMobile}) {
+    padding: 0 0 ${theme.space[7]} ${theme.space[7]};
   }
 
   h2 {
@@ -44,7 +46,24 @@ export const ListItem = styled(motion.li)`
   }
 `
 
+export const Year = styled.h1`
+  font-size: ${theme.font.sizes.large};
+  padding-right: ${theme.space[7]};
+  display: flex;
+  align-items: center;
+`
+
 export const Paragraph = styled.p`
   font-size: ${theme.font.sizes.small};
   color: ${theme.colors.gray400};
+`
+
+export const ContainerDescription = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  a {
+    color: ${theme.colors.white};
+  }
 `

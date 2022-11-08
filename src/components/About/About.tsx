@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import { InView } from 'react-intersection-observer'
+import { Assets } from '~/assets'
 
 import * as S from './About.styled'
 
@@ -19,23 +21,39 @@ export function About() {
         <S.Container ref={ref}>
           {inView && (
             <>
-              <S.Title
-                variants={leftVariant}
-                initial='hidden'
-                animate='visible'
-              >
-                Dedicada a encontrar as melhores soluções criativas para suas
-                marcas
-              </S.Title>
-              <S.Paragraph
+              <S.ContainerImage
                 variants={rightVariant}
                 initial='hidden'
                 animate='visible'
               >
-                Me preocupo com cada detalhe na hora de construir interfaces
-                valorizando a experiência para que ela impacte positivamente a
-                vida dos usuários.
-              </S.Paragraph>
+                <Image
+                  src={Assets.AboutImg}
+                  width={387}
+                  height={544}
+                  alt='Imagem de uma caneca escrito Develop. Preview. Ship.'
+                />
+              </S.ContainerImage>
+
+              <S.ContainerText>
+                <S.Title
+                  variants={leftVariant}
+                  initial='hidden'
+                  animate='visible'
+                >
+                  Dedicada a encontrar as melhores soluções criativas para suas
+                  marcas
+                </S.Title>
+
+                <S.Paragraph
+                  variants={leftVariant}
+                  initial='hidden'
+                  animate='visible'
+                >
+                  Me preocupo com cada detalhe na hora de construir interfaces
+                  valorizando a experiência para que ela impacte positivamente a
+                  vida dos usuários.
+                </S.Paragraph>
+              </S.ContainerText>
             </>
           )}
         </S.Container>

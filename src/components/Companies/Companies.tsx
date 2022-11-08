@@ -4,12 +4,18 @@ import * as S from './Companies.styled'
 
 const companies = [
   {
-    title: 'Front-end Developer',
-    paragraph: 'Hypesoft • 6 meses',
+    year: 2022,
+    site: 'https://www.linkedin.com/company/hypesoft',
+    title: 'Front-end Developer na Hypesoft • 6 meses ',
+    description:
+      'Desenvolvi desde o layout até o Front-end da aplicação com códigos limpos e de qualidade. Fiz entrevistas e revisei tech challenges de candidatos, além de fazer o processo de onboarding de novos desenvolvedores. No dia a dia era responsável pela gestão do time de desenvolvimento interno, fazendo revisão de códigos, passando feedbacks e instruções.',
   },
   {
-    title: 'Front-end Developer',
-    paragraph: '42 Dias Tecnologia • 5 meses',
+    year: 2021,
+    site: 'https://www.linkedin.com/company/42-dias-tecnologia',
+    title: 'Front-end Developer na 42 Dias • 5 meses ',
+    description:
+      'Desenvolvi layouts no Figma, tomava decisões a nível de processos internos e construí interfaces pensando na usabilidade do usuário final e na manutenção dos códigos.',
   },
 ]
 
@@ -33,7 +39,7 @@ export function Companies() {
             <S.List>
               {companies.map((company, index) => (
                 <S.ListItem
-                  key={company.paragraph}
+                  key={company.title}
                   aria-label={company.title}
                   initial='hidden'
                   animate='visible'
@@ -43,8 +49,15 @@ export function Companies() {
                     delay: index / companies.length,
                   }}
                 >
-                  <h2>{company.title}</h2>
-                  <S.Paragraph>{company.paragraph}</S.Paragraph>
+                  <S.Year>{company.year}</S.Year>
+                  <S.ContainerDescription>
+                    <h2>
+                      <a href={company.site} target='_blank' rel='noreferrer'>
+                        {company.title}
+                      </a>
+                    </h2>
+                    <S.Paragraph>{company.description}</S.Paragraph>
+                  </S.ContainerDescription>
                 </S.ListItem>
               ))}
             </S.List>

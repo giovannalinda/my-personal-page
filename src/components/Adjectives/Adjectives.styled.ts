@@ -22,4 +22,8 @@ export const Title = styled.h1`
   text-decoration: underline;
   font-size: ${theme.font.sizes.title};
   transition: ${theme.transitions.slow};
+
+  @media screen and (max-width: ${theme.breakpoints.smallMobile}) {
+    font-size: ${theme.font.sizes.large};
+  }
 `

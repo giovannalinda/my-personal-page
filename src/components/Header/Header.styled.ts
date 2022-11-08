@@ -17,6 +17,10 @@ export const List = styled.ul`
   width: 100%;
   padding: ${theme.space[5]} 10rem;
 
+  @media screen and (max-width: ${theme.breakpoints.smallMobile}) {
+    padding: ${theme.space[5]} ${theme.space[7]};
+  }
+
   svg {
     color: ${theme.colors.white};
   }

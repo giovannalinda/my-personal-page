@@ -5,7 +5,7 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40rem;
+  margin-bottom: 34rem;
   text-align: center;
 
   @media screen and (max-width: ${theme.breakpoints.smallDesktop}) {
