@@ -14,6 +14,9 @@ export const Container = styled.div`
 
   @media screen and (max-width: ${theme.breakpoints.mobile}) {
     margin-right: ${theme.space[4]};
+    li + li {
+      margin-left: ${theme.space[4]};
+    }
 
     button {
       padding: 0;
