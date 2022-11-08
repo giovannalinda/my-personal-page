@@ -1,6 +1,7 @@
 import { AnimatePresence } from 'framer-motion'
 import { useState } from 'react'
 import { AiOutlineAlignRight } from 'react-icons/ai'
+import { LocaleSelect } from '../LocaleSelect'
 import { Sidebar } from '../Sidebar/Sidebar'
 
 import * as S from './Header.styled'
@@ -23,7 +24,7 @@ export function Header() {
           <p>Souza</p>
         </S.ListItem>
         <S.ListItem>
-          <small>PT EN</small>
+          <LocaleSelect />
         </S.ListItem>
         <S.ListItem>
           <S.OpenSidebarButton>
