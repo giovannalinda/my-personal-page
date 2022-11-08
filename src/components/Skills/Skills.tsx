@@ -13,6 +13,8 @@ import {
 
 import { InView } from 'react-intersection-observer'
 
+import { useTranslation } from '~/lib'
+
 import * as S from './Skills.styled'
 
 const skills = [
@@ -68,11 +70,13 @@ const cardVariant = {
 }
 
 export function Skills() {
+  const { t } = useTranslation()
+
   return (
     <InView triggerOnce>
       {({ inView, ref }) => (
         <div ref={ref}>
-          <S.Title>Conhecimentos</S.Title>
+          <S.Title>{t('Skills')}</S.Title>
 
           {inView && (
             <S.List

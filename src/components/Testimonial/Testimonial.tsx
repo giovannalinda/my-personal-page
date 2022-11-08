@@ -4,11 +4,14 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination, Navigation } from 'swiper'
 
 import * as S from './Testimonial.styled'
+import { useTranslation } from '~/lib'
 
 export function Testimonial() {
+  const { t } = useTranslation()
+
   return (
     <>
-      <S.Title>O que dizem</S.Title>
+      <S.Title>{t('What they say')}</S.Title>
       <S.Container>
         <GoQuote size={28} />
         <Swiper
@@ -23,20 +26,20 @@ export function Testimonial() {
         >
           <SwiperSlide>
             <S.Recommendation>
-              Trabalhar com a Giovanna foi demais! Ela é uma pessoa super
-              atenciosa e dedicada. Sempre se esforça ao máximo para melhorar o
-              seus resultados e agregar algo a mais ao time, fora a sua
-              organização, que é coisa de outro mundo.
+              {t(
+                'Working with Giovanna was awesome! She is a very caring and dedicated person. She always tries her best to improve her results and add something more to the team, apart from her organization, which is something out of this world.',
+              )}
             </S.Recommendation>
           </SwiperSlide>
           <SwiperSlide>
             <S.Recommendation>
-              A Giovanna é uma ótima profissional, sempre trazendo novas ideias
-              ao time, muito esforçada e inteligente.
+              {t(
+                'Giovanna is a great professional, always bringing new ideas to the team, very hardworking and intelligent.',
+              )}
             </S.Recommendation>
           </SwiperSlide>
         </Swiper>
-        <S.Paragraph>Recomendações do Linkedin</S.Paragraph>
+        <S.Paragraph>{t('Linkedin Recommendations')}</S.Paragraph>
       </S.Container>
     </>
   )

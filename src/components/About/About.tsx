@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { InView } from 'react-intersection-observer'
 import { Assets } from '~/assets'
+import { useTranslation } from '~/lib'
 
 import * as S from './About.styled'
 
@@ -15,6 +16,8 @@ const rightVariant = {
 }
 
 export function About() {
+  const { t } = useTranslation()
+
   return (
     <InView triggerOnce>
       {({ ref, inView }) => (
@@ -40,8 +43,9 @@ export function About() {
                   initial='hidden'
                   animate='visible'
                 >
-                  Dedicada a encontrar as melhores soluções criativas para suas
-                  marcas
+                  {t(
+                    'Dedicated to finding the best creative solutions for your brands.',
+                  )}
                 </S.Title>
 
                 <S.Paragraph
@@ -49,9 +53,9 @@ export function About() {
                   initial='hidden'
                   animate='visible'
                 >
-                  Me preocupo com cada detalhe na hora de construir interfaces
-                  valorizando a experiência para que ela impacte positivamente a
-                  vida dos usuários.
+                  {t(
+                    'I care about every detail when building interfaces valuing the experience so that it positively impacts the lives of users.',
+                  )}
                 </S.Paragraph>
               </S.ContainerText>
             </>

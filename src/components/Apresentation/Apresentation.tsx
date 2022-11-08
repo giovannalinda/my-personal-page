@@ -1,12 +1,11 @@
-import { motion } from 'framer-motion'
 import Image from 'next/image'
+
+import { motion } from 'framer-motion'
+
 import { Assets } from '~/assets'
+import { useTranslation } from '~/lib'
 
 import * as S from './Apresentation.styled'
-
-const TITLE = 'Construindo produtos, marcas e experiências digitais.'
-const PARAGRAPH = 'ENTRE EM CONTATO POR AQUI'
-const EMAIL = 'eugiovannasouza@gmail.com'
 
 const letterVariant = {
   hidden: { opacity: 0 },
@@ -14,24 +13,32 @@ const letterVariant = {
 }
 
 export function Apresentation() {
+  const { t } = useTranslation()
+
+  const TITLE = `${t('Building digital products, brands & experience.')}`
+  const PARAGRAPH = `${t('CONTACT ME HERE')}`
+  const EMAIL = 'eugiovannasouza@gmail.com'
+
   return (
     <S.Container>
       <S.Content>
         <S.Title>
-          {TITLE.split('').map((char, index) => (
-            <motion.span
-              key={`${char}-${index}`}
-              variants={letterVariant}
-              transition={{
-                delay: index / TITLE.length,
-                duration: 0.4,
-              }}
-              initial='hidden'
-              animate='visible'
-            >
-              {char}
-            </motion.span>
-          ))}
+          {t('Building digital products, brands & experience.')
+            .split('')
+            .map((char, index) => (
+              <motion.span
+                key={`${char}-${index}`}
+                variants={letterVariant}
+                transition={{
+                  delay: index / TITLE.length,
+                  duration: 0.4,
+                }}
+                initial='hidden'
+                animate='visible'
+              >
+                {char}
+              </motion.span>
+            ))}
         </S.Title>
         <S.Paragraph>
           {PARAGRAPH.split('').map((char, index) => (

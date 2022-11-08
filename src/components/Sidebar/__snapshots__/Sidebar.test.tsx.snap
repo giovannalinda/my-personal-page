@@ -11,7 +11,7 @@ exports[`Sidebar matches snapshot 1`] = `
     <button
       class="sc-iBkjds iPHuLK"
     >
-      Fechar
+      Close
     </button>
     <div
       class="sc-ftvSup"
@@ -28,7 +28,7 @@ exports[`Sidebar matches snapshot 1`] = `
             <a
               href="/"
             >
-              INÍCIO
+              HOME
             </a>
           </li>
           <li
@@ -37,7 +37,7 @@ exports[`Sidebar matches snapshot 1`] = `
             <a
               href="/about-me"
             >
-              QUEM SOU
+              WHO I AM
             </a>
           </li>
           <li
@@ -46,7 +46,7 @@ exports[`Sidebar matches snapshot 1`] = `
             <a
               href="/contact"
             >
-              CONTATO
+              CONTACT
             </a>
           </li>
         </ul>

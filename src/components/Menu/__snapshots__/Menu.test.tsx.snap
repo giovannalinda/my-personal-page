@@ -13,7 +13,7 @@ exports[`Menu matches snapshot 1`] = `
       <a
         href="/"
       >
-        INÍCIO
+        HOME
       </a>
     </li>
     <li
@@ -22,7 +22,7 @@ exports[`Menu matches snapshot 1`] = `
       <a
         href="/about-me"
       >
-        QUEM SOU
+        WHO I AM
       </a>
     </li>
     <li
@@ -31,7 +31,7 @@ exports[`Menu matches snapshot 1`] = `
       <a
         href="/contact"
       >
-        CONTATO
+        CONTACT
       </a>
     </li>
   </ul>

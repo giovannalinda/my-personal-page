@@ -2,13 +2,13 @@
 
 exports[`Header matches snapshot 1`] = `
 <header
-  class="sc-papXJ ObRRU"
+  class="sc-kDDrLX bYpbba"
 >
   <ul
-    class="sc-jqUVSM kmzZuc"
+    class="sc-iqcoie hFxDLO"
   >
     <li
-      class="sc-kDDrLX irZuR"
+      class="sc-crXcEl cMMoA-D"
     >
       <h1>
         Giovanna
@@ -18,17 +18,42 @@ exports[`Header matches snapshot 1`] = `
       </p>
     </li>
     <li
-      class="sc-kDDrLX irZuR"
+      class="sc-crXcEl cMMoA-D"
     >
-      <small>
-        PT EN
-      </small>
+      <div
+        class="sc-bczRLJ WsGFP"
+      >
+        <ul
+          class="sc-gsnTZi WfLbq"
+        >
+          <li>
+            <a
+              href="/"
+              locale="en-US"
+            >
+              <button>
+                EN
+              </button>
+            </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              locale="pt-BR"
+            >
+              <button>
+                 PT
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
     </li>
     <li
-      class="sc-kDDrLX irZuR"
+      class="sc-crXcEl cMMoA-D"
     >
       <button
-        class="sc-iqcoie haNNNk"
+        class="sc-evZas gfPmqf"
       >
         <svg
           fill="currentColor"

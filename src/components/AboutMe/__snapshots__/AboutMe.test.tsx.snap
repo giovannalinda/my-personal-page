@@ -15,7 +15,9 @@ exports[`AboutMe matches snapshot 1`] = `
   <small
     class="sc-dkzDqf eZUUTv"
   >
-    Front-end Developer na 
+    Front-end Developer 
+    at
+     
     <a
       class="sc-eCYdqJ cpJoyG"
       href="https://www.instagram.com/hypesoftbrasil/"
@@ -26,16 +28,17 @@ exports[`AboutMe matches snapshot 1`] = `
   <p
     class="sc-hKMtZM bkfbAB"
   >
-    Olá! Prazer 💜 
+    Hi! Pleasure
+     💜 
     <br />
     <br />
-    Sou uma desenvolvedora com brilho no olho, que está sempre em busca do próximo nível e que se empenha em trazer assuntos relevantes pra comunidade.
+    I am a developer with a sparkle in my eye, who is always looking for the next level and who strives to bring relevant issues to the community.
     <br />
     <br />
-    Sou apaixonada por criar produtos úteis e de boa qualidade para os usuários, atualmente possuo 2 anos na área de desenvolvimento e ando me aperfeiçoando tanto na parte técnica quanto na parte de liderança de um time.
+    I am passionate about creating useful and good quality products for users, I currently have 2 years in the development area and I am improving both in the technical part and in the leadership part of a team.
     <br />
     <br />
-    Alguns dos meus objetivos são ter um crescimento continuo, impactar a vida das pessoas e construir interfaces de boa qualidade.
+    Some of my goals are to have continuous growth, impact people's lives and build good quality interfaces.
   </p>
 </section>
 `;

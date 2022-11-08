@@ -1,4 +1,6 @@
 import { Menu } from 'components/Menu'
+
+import { useTranslation } from '~/lib'
 import { SocialNetworks } from '../SocialNetworks'
 
 import * as S from './Sidebar.styled'
@@ -8,6 +10,8 @@ export type SidebarProps = {
 }
 
 export function Sidebar({ onClose }: SidebarProps) {
+  const { t } = useTranslation()
+
   return (
     <S.Overlay onClick={onClose}>
       <S.Container
@@ -19,7 +23,7 @@ export function Sidebar({ onClose }: SidebarProps) {
           duration: 0.4,
         }}
       >
-        <S.CloseButton onClick={onClose}>Fechar</S.CloseButton>
+        <S.CloseButton onClick={onClose}>{t('Close')}</S.CloseButton>
         <S.Content>
           <Menu />
           <SocialNetworks />

@@ -10,7 +10,7 @@ exports[`Adjectives matches snapshot 1`] = `
     <h1
       class="sc-dkzDqf lmAeTQ"
     >
-      Criatividade
+      Creativity
     </h1>
   </li>
   <li
@@ -19,7 +19,7 @@ exports[`Adjectives matches snapshot 1`] = `
     <h1
       class="sc-dkzDqf lmAeTQ"
     >
-      Singularidade
+      Singularity
     </h1>
   </li>
   <li
@@ -28,7 +28,7 @@ exports[`Adjectives matches snapshot 1`] = `
     <h1
       class="sc-dkzDqf lmAeTQ"
     >
-      Curiosidade
+      Curiosity
     </h1>
   </li>
 </ul>
