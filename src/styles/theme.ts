@@ -31,7 +31,7 @@ export const theme = {
 
     purple: '#6D38FC',
 
-    gray900: '#171717',
+    gray900: '#0B0B0B',
     gray800: '#202020',
     gray400: '#AEAEAE',
     gray300: '#CECECE',
