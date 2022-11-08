@@ -3,6 +3,7 @@ import { theme } from '~/styles'
 
 export const Container = styled.section`
   margin-top: 22rem;
+  margin-bottom: 22rem;
   text-align: left;
 `
 
