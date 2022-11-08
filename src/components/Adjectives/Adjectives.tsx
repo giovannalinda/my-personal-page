@@ -1,16 +1,20 @@
+import { useTranslation } from '~/lib'
+
 import * as S from './Adjectives.styled'
 
 export function Adjectives() {
+  const { t } = useTranslation()
+
   return (
     <S.List>
       <S.ListItem>
-        <S.Title>Criatividade</S.Title>
+        <S.Title>{t('Creativity')}</S.Title>
       </S.ListItem>
       <S.ListItem>
-        <S.Title>Singularidade</S.Title>
+        <S.Title>{t('Singularity')}</S.Title>
       </S.ListItem>
       <S.ListItem>
-        <S.Title>Curiosidade</S.Title>
+        <S.Title>{t('Curiosity')}</S.Title>
       </S.ListItem>
     </S.List>
   )
