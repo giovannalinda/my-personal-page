@@ -5,7 +5,7 @@ export const Container = styled.nav``
 
 export const List = styled.ul`
   padding: ${theme.space[5]};
-  margin: 28rem 0 0 ${theme.space[7]};
+  margin: 28rem 0 0 0;
   overflow-y: scroll;
 `
 
