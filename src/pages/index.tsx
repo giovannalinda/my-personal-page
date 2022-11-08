@@ -14,6 +14,7 @@ import {
   Banner,
   Footer,
   Companies,
+  WhatsappButton,
 } from '~/components'
 
 const Home: NextPage = () => {
@@ -21,13 +22,14 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Giovanna Souza</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/favicon.svg' />
       </Head>
 
       <Header />
       <main>
         <Layout.Content>
           <Apresentation />
+          <WhatsappButton />
         </Layout.Content>
         <Statistics />
         <Layout.Content>
