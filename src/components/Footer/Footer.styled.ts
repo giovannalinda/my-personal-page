@@ -5,12 +5,12 @@ export const Footer = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: ${theme.space[5]};
+  flex-direction: column;
   border-top: 1px solid ${theme.colors.gray800};
 `
 
 export const Paragraph = styled.p`
   text-align: center;
   font-size: ${theme.font.sizes.small};
-  padding-top: ${theme.space[5]};
+  padding-bottom: 11rem;
 `
