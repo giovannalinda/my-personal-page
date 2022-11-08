@@ -15,7 +15,7 @@ exports[`Statistics matches snapshot 1`] = `
     <p
       class="sc-hKMtZM SUDTQ"
     >
-      Anos de Experiências
+      Years Experience
     </p>
   </li>
   <li
@@ -29,7 +29,7 @@ exports[`Statistics matches snapshot 1`] = `
     <p
       class="sc-hKMtZM SUDTQ"
     >
-      Contribuições Esse Ano
+      Contributions This Year
     </p>
   </li>
   <li
@@ -43,7 +43,7 @@ exports[`Statistics matches snapshot 1`] = `
     <p
       class="sc-hKMtZM SUDTQ"
     >
-      De Satisfação
+      Of Satisfaction
     </p>
   </li>
 </ul>
