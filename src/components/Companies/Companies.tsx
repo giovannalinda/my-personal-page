@@ -1,23 +1,7 @@
 import { InView } from 'react-intersection-observer'
+import { useTranslation } from '~/lib'
 
 import * as S from './Companies.styled'
-
-const companies = [
-  {
-    year: 2022,
-    site: 'https://www.linkedin.com/company/hypesoft',
-    title: 'Front-end Developer na Hypesoft • 6 meses ',
-    description:
-      'Desenvolvi desde o layout até o Front-end da aplicação com códigos limpos e de qualidade. Fiz entrevistas e revisei tech challenges de candidatos, além de fazer o processo de onboarding de novos desenvolvedores. No dia a dia era responsável pela gestão do time de desenvolvimento interno, fazendo revisão de códigos, passando feedbacks e instruções.',
-  },
-  {
-    year: 2021,
-    site: 'https://www.linkedin.com/company/42-dias-tecnologia',
-    title: 'Front-end Developer na 42 Dias • 5 meses ',
-    description:
-      'Desenvolvi layouts no Figma, tomava decisões a nível de processos internos e construí interfaces pensando na usabilidade do usuário final e na manutenção dos códigos.',
-  },
-]
 
 const cardVariant = {
   hidden: {
@@ -29,11 +13,32 @@ const cardVariant = {
 }
 
 export function Companies() {
+  const { t } = useTranslation()
+
+  const companies = [
+    {
+      year: 2022,
+      site: 'https://www.linkedin.com/company/hypesoft',
+      title: `Front-end Developer ${t('at')} Hypesoft • 6 meses `,
+      description: `${t(
+        'I developed from the layout to the Front-end of the application with clean and quality codes. I did interviews and reviewed tech challenges for candidates, in addition to doing the onboarding process for new developers. On a day-to-day basis, I was responsible for managing the internal development team, reviewing codes, providing feedback and instructions.',
+      )}`,
+    },
+    {
+      year: 2021,
+      site: 'https://www.linkedin.com/company/42-dias-tecnologia',
+      title: `Front-end Developer ${t('at')} 42 Dias • 5 meses`,
+      description: `${t(
+        'I developed layouts in Figma, made decisions at the level of internal processes and built interfaces thinking about end-user usability and code maintenance.',
+      )}`,
+    },
+  ]
+
   return (
     <InView triggerOnce>
       {({ inView, ref }) => (
         <S.Container ref={ref}>
-          <S.Title>Carreira</S.Title>
+          <S.Title>{t('Career')}</S.Title>
 
           {inView && (
             <S.List>
