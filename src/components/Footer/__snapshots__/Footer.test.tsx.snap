@@ -189,7 +189,8 @@ exports[`Footer matches snapshot 1`] = `
   <p
     class="sc-hKMtZM hmIkUR"
   >
-    Giovanna Souza © Todos os direitos reservados
+    Giovanna Souza © 
+    All rights reserved.
   </p>
 </footer>
 `;
