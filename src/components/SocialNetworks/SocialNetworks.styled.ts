@@ -3,24 +3,27 @@ import { theme } from '~/styles'
 
 export const List = styled.ul`
   display: flex;
-  margin-top: 12rem;
-  padding: ${theme.space[5]};
+  gap: ${theme.space[5]};
 `
 
 export const ListItem = styled.li`
   cursor: pointer;
+  padding: 0;
+  color: ${theme.colors.gray800};
 
   a {
     color: ${theme.colors.white};
   }
 
-  svg {
-    &::hover {
-      color: ${theme.colors.gray800};
-    }
+  &:hover svg {
+    stroke: ${theme.colors.gray400};
+  }
+
+  &:nth-child(3):hover svg {
+    fill: ${theme.colors.gray400};
   }
 
   & + & {
-    padding-left: ${theme.space[5]};
+    padding: 0;
   }
 `
