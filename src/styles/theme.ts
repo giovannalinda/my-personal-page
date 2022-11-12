@@ -47,6 +47,7 @@ export const theme = {
     5: '2.4rem',
     6: '3.2rem',
     7: '4rem',
+    8: '4.8rem'
   },
   borderRadius: {
     rounded: '50%',

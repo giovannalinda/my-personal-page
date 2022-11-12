@@ -24,10 +24,8 @@ export function Sidebar({ onClose }: SidebarProps) {
         }}
       >
         <S.CloseButton onClick={onClose}>{t('Close')}</S.CloseButton>
-        <S.Content>
-          <Menu />
-          <SocialNetworks />
-        </S.Content>
+        <Menu />
+        <SocialNetworks />
       </S.Container>
     </S.Overlay>
   )
